@@ -162,6 +162,19 @@ body {
     font-size: 0.9rem;
 }
 
+.whatsapp-mark {
+    display: grid;
+    width: 1.35rem;
+    height: 1.35rem;
+    place-items: center;
+    border-radius: 9999px;
+    background: #25d366;
+    color: #123523;
+    font-size: 0.52rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+}
+
 .summary-item {
     min-height: 5rem;
 }
@@ -247,6 +260,62 @@ body {
     font-size: 0.58rem;
     font-weight: 700;
     letter-spacing: 0.1em;
+}
+
+.experience-duties {
+    color: #68736b;
+    font-size: 0.78rem;
+    line-height: 1.55rem;
+}
+
+.experience-duties li {
+    position: relative;
+    padding-left: 1rem;
+}
+
+.experience-duties li::before {
+    position: absolute;
+    top: 0.6rem;
+    left: 0;
+    width: 0.35rem;
+    height: 0.35rem;
+    border-radius: 9999px;
+    background: #78965d;
+    content: '';
+}
+
+.construction-timeline {
+    display: grid;
+    gap: 1rem;
+    border-left: 1px solid #d5ddcf;
+    margin-left: 0.2rem;
+    padding-left: 0.9rem;
+}
+
+.construction-stage {
+    position: relative;
+    display: grid;
+    gap: 0.2rem;
+}
+
+.construction-stage::before {
+    position: absolute;
+    top: 0.2rem;
+    left: -1.18rem;
+    width: 0.55rem;
+    height: 0.55rem;
+    border: 2px solid #f8f7f2;
+    border-radius: 9999px;
+    background: #78965d;
+    box-shadow: 0 0 0 1px #b8c2ad;
+    content: '';
+}
+
+.construction-stage-year {
+    color: #71806f;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
 }
 
 .education-list {

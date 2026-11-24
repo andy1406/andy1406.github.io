@@ -15,8 +15,16 @@ class PortfolioPageTest extends TestCase
             ->assertSee('Manajemen Informatika')
             ->assertSee('Terbuka untuk kesempatan kerja')
             ->assertSee('Unduh CV saya')
+            ->assertSee('https://wa.me/6285271696776')
             ->assertSee('Aldy Computer')
+            ->assertSee('instalasi sistem operasi dan perangkat lunak')
+            ->assertSee('pengarsipan dokumen administrasi sekolah')
+            ->assertSee('Menerapkan prosedur K3')
             ->assertSee('Pekerja Konstruksi')
+            ->assertSee('Pekerja kasar konstruksi')
+            ->assertSee('Pekerja pertukangan')
+            ->assertSee('keterampilan tukang besi')
+            ->assertSee('2023 — Oktober 2026')
             ->assertSee('andy-putra.jpg')
             ->assertSee('andy-putra-cv.pdf');
     }

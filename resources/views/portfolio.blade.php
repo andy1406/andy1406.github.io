@@ -73,8 +73,8 @@
                         <a class="inline-flex items-center gap-2 transition hover:text-[#d9f99d]" href="mailto:andy.kamil14@gmail.com">
                             <span aria-hidden="true">✉</span> andy.kamil14@gmail.com
                         </a>
-                        <a class="inline-flex items-center gap-2 transition hover:text-[#d9f99d]" href="tel:+6285271696776">
-                            <span aria-hidden="true">☎</span> +62 852 7169 6776
+                        <a class="inline-flex items-center gap-2 transition hover:text-[#d9f99d]" href="https://wa.me/6285271696776" target="_blank" rel="noopener noreferrer" aria-label="Hubungi Andy Putra melalui WhatsApp">
+                            <span class="whatsapp-mark" aria-hidden="true">WA</span> +62 852 7169 6776
                         </a>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                         <p class="section-kicker"><span>02</span> PENGALAMAN KERJA</p>
                         <h2 class="display-font mt-5 max-w-2xl text-4xl leading-[1.04] sm:text-5xl">Pengalaman yang membentuk cara saya bekerja.</h2>
                     </div>
-                    <p class="max-w-sm text-sm leading-6 text-[#6b756e]">Setiap peran memberi saya kesempatan untuk belajar, membantu tim, dan bertanggung jawab.</p>
+                    <p class="max-w-sm text-sm leading-6 text-[#6b756e]">Berikut tugas nyata yang pernah saya tangani di bidang IT, administrasi, dan pekerjaan lapangan.</p>
                 </div>
 
                 <div class="mt-10 grid gap-4 lg:grid-cols-3">
@@ -168,7 +168,12 @@
                         <p class="mt-7 text-xs font-semibold uppercase tracking-[0.14em] text-[#72806f]">IT & Layanan</p>
                         <h3 class="mt-2 text-xl font-bold tracking-tight">Teknisi Komputer</h3>
                         <p class="mt-1 text-sm font-semibold text-[#547148]">Aldy Computer</p>
-                        <p class="mt-4 text-sm leading-6 text-[#68736b]">Membantu instalasi sistem operasi dan perangkat lunak, melakukan perawatan serta servis komputer, dan merespons kebutuhan pelanggan.</p>
+                        <p class="mt-5 text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a938c]">Tanggung jawab</p>
+                        <ul class="experience-duties mt-3 space-y-3">
+                            <li>Melakukan instalasi sistem operasi dan perangkat lunak pada komputer.</li>
+                            <li>Menangani perbaikan serta perawatan komputer dan jaringan.</li>
+                            <li>Merespons kebutuhan servis perangkat pelanggan.</li>
+                        </ul>
                         <p class="mt-auto border-t border-[#17231f]/10 pt-5 text-xs font-medium text-[#818a81]">4 April – 2 Juli 2016</p>
                     </article>
 
@@ -180,19 +185,45 @@
                         <p class="mt-7 text-xs font-semibold uppercase tracking-[0.14em] text-[#72806f]">Administrasi</p>
                         <h3 class="mt-2 text-xl font-bold tracking-tight">Staf Administrasi</h3>
                         <p class="mt-1 text-sm font-semibold text-[#547148]">MIN 4 Agam</p>
-                        <p class="mt-4 text-sm leading-6 text-[#68736b]">Mendukung bagian Tata Usaha dalam pengelolaan dan pengarsipan dokumen serta kegiatan operasional harian.</p>
+                        <p class="mt-5 text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a938c]">Tanggung jawab</p>
+                        <ul class="experience-duties mt-3 space-y-3">
+                            <li>Membantu pengelolaan dan pengarsipan dokumen administrasi sekolah.</li>
+                            <li>Mendukung kegiatan operasional harian kantor Tata Usaha.</li>
+                        </ul>
                         <p class="mt-auto border-t border-[#17231f]/10 pt-5 text-xs font-medium text-[#818a81]">9 Agustus – 25 September 2021</p>
                     </article>
 
                     <article class="experience-card flex flex-col rounded-3xl border border-[#17231f]/10 bg-[#f8f7f2] p-6 sm:p-7">
                         <div class="flex items-center justify-between">
                             <span class="experience-icon" aria-hidden="true">↗</span>
-                            <span class="experience-date">BERBASIS PROYEK</span>
+                            <span class="experience-date">2019 — OKTOBER 2026</span>
                         </div>
                         <p class="mt-7 text-xs font-semibold uppercase tracking-[0.14em] text-[#72806f]">Operasional Lapangan</p>
                         <h3 class="mt-2 text-xl font-bold tracking-tight">Pekerja Konstruksi</h3>
                         <p class="mt-1 text-sm font-semibold text-[#547148]">Freelance / proyekan</p>
-                        <p class="mt-4 text-sm leading-6 text-[#68736b]">Membantu penanganan material, persiapan pekerjaan, koordinasi tim, penerapan K3, dan menjaga kerapian area proyek.</p>
+                        <ol class="construction-timeline mt-5">
+                            <li class="construction-stage">
+                                <span class="construction-stage-year">2019 — 2022</span>
+                                <div>
+                                    <h4 class="text-sm font-semibold text-[#34443a]">Pekerja kasar konstruksi</h4>
+                                    <p class="mt-1 text-xs leading-5 text-[#6b756e]">Memulai pekerjaan lapangan sambil belajar dan memperkuat keterampilan tukang besi.</p>
+                                </div>
+                            </li>
+                            <li class="construction-stage">
+                                <span class="construction-stage-year">2023 — Oktober 2026</span>
+                                <div>
+                                    <h4 class="text-sm font-semibold text-[#34443a]">Pekerja pertukangan</h4>
+                                    <p class="mt-1 text-xs leading-5 text-[#6b756e]">Melanjutkan pengalaman kerja di lingkungan pertukangan dan konstruksi.</p>
+                                </div>
+                            </li>
+                        </ol>
+                        <p class="mt-5 text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a938c]">Tugas lapangan</p>
+                        <ul class="experience-duties mt-3 space-y-3">
+                            <li>Memuat, membongkar, dan memindahkan material dengan aman dan teratur.</li>
+                            <li>Membantu menyiapkan serta mengaduk semen atau beton sesuai rasio pekerjaan.</li>
+                            <li>Berkoordinasi dengan tim untuk menyelesaikan target kerja harian.</li>
+                            <li>Menerapkan prosedur K3 dan menjaga kebersihan area proyek.</li>
+                        </ul>
                         <p class="mt-auto border-t border-[#17231f]/10 pt-5 text-xs font-medium text-[#818a81]">Berbagai proyek konstruksi</p>
                     </article>
                 </div>
@@ -305,7 +336,7 @@
                 </div>
                 <div class="relative z-10 mt-9 flex flex-wrap gap-x-6 gap-y-2 border-t border-white/15 pt-5 text-xs text-white/55 sm:text-sm">
                     <a class="transition hover:text-[#d9f99d]" href="mailto:andy.kamil14@gmail.com">andy.kamil14@gmail.com</a>
-                    <a class="transition hover:text-[#d9f99d]" href="tel:+6285271696776">+62 852 7169 6776</a>
+                    <a class="transition hover:text-[#d9f99d]" href="https://wa.me/6285271696776" target="_blank" rel="noopener noreferrer">WhatsApp · +62 852 7169 6776</a>
                     <a class="transition hover:text-[#d9f99d]" href="{{ asset('documents/andy-putra-cv-lama.pdf') }}" download>CV versi sebelumnya</a>
                 </div>
             </div>
