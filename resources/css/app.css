@@ -179,15 +179,6 @@ body {
     min-height: 5rem;
 }
 
-.summary-number {
-    color: #21372a;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: -0.07em;
-    line-height: 1;
-}
-
 .section-kicker {
     display: flex;
     align-items: center;

@@ -105,17 +105,17 @@
 
         <section aria-label="Ringkasan profil" class="border-b border-[#17231f]/10 bg-[#e7e9de]">
             <div class="mx-auto grid max-w-7xl gap-0 px-5 sm:px-8 md:grid-cols-3 lg:px-12">
-                <div class="summary-item flex items-center gap-4 border-b border-[#17231f]/10 py-5 md:border-b-0 md:border-r md:py-6 md:pr-8">
-                    <span class="summary-number">D-3</span>
-                    <span class="text-xs leading-5 text-[#69736a] sm:text-sm">Manajemen<br>Informatika</span>
+                <div class="summary-item flex flex-col justify-center border-b border-[#17231f]/10 py-5 md:border-b-0 md:border-r md:py-6 md:pr-8">
+                    <p class="text-xs font-semibold text-[#34443a] sm:text-sm">Pendidikan</p>
+                    <p class="mt-1 text-sm leading-5 text-[#69736a] sm:text-base">D-3 Manajemen Informatika</p>
                 </div>
-                <div class="summary-item flex items-center gap-4 border-b border-[#17231f]/10 py-5 md:border-b-0 md:border-r md:px-8 md:py-6">
-                    <span class="summary-number">3,28</span>
-                    <span class="text-xs leading-5 text-[#69736a] sm:text-sm">IPK dari<br>4,00</span>
+                <div class="summary-item flex flex-col justify-center border-b border-[#17231f]/10 py-5 md:border-b-0 md:border-r md:px-8 md:py-6">
+                    <p class="text-xs font-semibold text-[#34443a] sm:text-sm">Indeks Prestasi Kumulatif</p>
+                    <p class="mt-1 text-sm leading-5 text-[#69736a] sm:text-base">3,28 dari 4,00</p>
                 </div>
-                <div class="summary-item flex items-center gap-4 py-5 md:pl-8 md:py-6">
-                    <span class="summary-number">3</span>
-                    <span class="text-xs leading-5 text-[#69736a] sm:text-sm">Area pengalaman:<br>IT, administrasi, proyek</span>
+                <div class="summary-item flex flex-col justify-center py-5 md:pl-8 md:py-6">
+                    <p class="text-xs font-semibold text-[#34443a] sm:text-sm">Bidang pengalaman</p>
+                    <p class="mt-1 text-sm leading-5 text-[#69736a] sm:text-base">IT, administrasi, dan proyek</p>
                 </div>
             </div>
         </section>
@@ -168,13 +168,11 @@
                         <p class="mt-7 text-xs font-semibold uppercase tracking-[0.14em] text-[#72806f]">IT & Layanan</p>
                         <h3 class="mt-2 text-xl font-bold tracking-tight">Teknisi Komputer</h3>
                         <p class="mt-1 text-sm font-semibold text-[#547148]">Aldy Computer</p>
-                        <p class="mt-5 text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a938c]">Tanggung jawab</p>
-                        <ul class="experience-duties mt-3 space-y-3">
-                            <li>Melakukan instalasi sistem operasi dan perangkat lunak pada komputer.</li>
-                            <li>Menangani perbaikan serta perawatan komputer dan jaringan.</li>
-                            <li>Merespons kebutuhan servis perangkat pelanggan.</li>
-                        </ul>
-                        <p class="mt-auto border-t border-[#17231f]/10 pt-5 text-xs font-medium text-[#818a81]">4 April – 2 Juli 2016</p>
+                        <p class="mt-4 text-sm leading-6 text-[#6b756e]">Instalasi, perawatan, dan perbaikan komputer serta jaringan, termasuk layanan servis pelanggan.</p>
+                        <div class="mt-auto flex flex-wrap items-center justify-between gap-3 border-t border-[#17231f]/10 pt-5">
+                            <span class="text-xs font-medium text-[#818a81]">4 April – 2 Juli 2016</span>
+                            <a class="text-xs font-bold text-[#547148] transition hover:text-[#17231f]" href="pengalaman-kerja/#teknisi">Detail ↗</a>
+                        </div>
                     </article>
 
                     <article class="experience-card flex flex-col rounded-3xl border border-[#17231f]/10 bg-[#f8f7f2] p-6 sm:p-7">
@@ -185,12 +183,11 @@
                         <p class="mt-7 text-xs font-semibold uppercase tracking-[0.14em] text-[#72806f]">Administrasi</p>
                         <h3 class="mt-2 text-xl font-bold tracking-tight">Staf Administrasi</h3>
                         <p class="mt-1 text-sm font-semibold text-[#547148]">MIN 4 Agam</p>
-                        <p class="mt-5 text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a938c]">Tanggung jawab</p>
-                        <ul class="experience-duties mt-3 space-y-3">
-                            <li>Membantu pengelolaan dan pengarsipan dokumen administrasi sekolah.</li>
-                            <li>Mendukung kegiatan operasional harian kantor Tata Usaha.</li>
-                        </ul>
-                        <p class="mt-auto border-t border-[#17231f]/10 pt-5 text-xs font-medium text-[#818a81]">9 Agustus – 25 September 2021</p>
+                        <p class="mt-4 text-sm leading-6 text-[#6b756e]">Mendukung pengarsipan dokumen dan kegiatan operasional harian kantor Tata Usaha.</p>
+                        <div class="mt-auto flex flex-wrap items-center justify-between gap-3 border-t border-[#17231f]/10 pt-5">
+                            <span class="text-xs font-medium text-[#818a81]">9 Agustus – 25 September 2021</span>
+                            <a class="text-xs font-bold text-[#547148] transition hover:text-[#17231f]" href="pengalaman-kerja/#administrasi">Detail ↗</a>
+                        </div>
                     </article>
 
                     <article class="experience-card flex flex-col rounded-3xl border border-[#17231f]/10 bg-[#f8f7f2] p-6 sm:p-7">
@@ -201,31 +198,19 @@
                         <p class="mt-7 text-xs font-semibold uppercase tracking-[0.14em] text-[#72806f]">Operasional Lapangan</p>
                         <h3 class="mt-2 text-xl font-bold tracking-tight">Pekerja Konstruksi</h3>
                         <p class="mt-1 text-sm font-semibold text-[#547148]">Freelance / proyekan</p>
-                        <ol class="construction-timeline mt-5">
-                            <li class="construction-stage">
-                                <span class="construction-stage-year">2019 — 2022</span>
-                                <div>
-                                    <h4 class="text-sm font-semibold text-[#34443a]">Pekerja kasar konstruksi</h4>
-                                    <p class="mt-1 text-xs leading-5 text-[#6b756e]">Memulai pekerjaan lapangan sambil belajar dan memperkuat keterampilan tukang besi.</p>
-                                </div>
-                            </li>
-                            <li class="construction-stage">
-                                <span class="construction-stage-year">2023 — Oktober 2026</span>
-                                <div>
-                                    <h4 class="text-sm font-semibold text-[#34443a]">Pekerja pertukangan</h4>
-                                    <p class="mt-1 text-xs leading-5 text-[#6b756e]">Melanjutkan pengalaman kerja di lingkungan pertukangan dan konstruksi.</p>
-                                </div>
-                            </li>
-                        </ol>
-                        <p class="mt-5 text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a938c]">Tugas lapangan</p>
-                        <ul class="experience-duties mt-3 space-y-3">
-                            <li>Memuat, membongkar, dan memindahkan material dengan aman dan teratur.</li>
-                            <li>Membantu menyiapkan serta mengaduk semen atau beton sesuai rasio pekerjaan.</li>
-                            <li>Berkoordinasi dengan tim untuk menyelesaikan target kerja harian.</li>
-                            <li>Menerapkan prosedur K3 dan menjaga kebersihan area proyek.</li>
-                        </ul>
-                        <p class="mt-auto border-t border-[#17231f]/10 pt-5 text-xs font-medium text-[#818a81]">Berbagai proyek konstruksi</p>
+                            <p class="mt-4 text-sm leading-6 text-[#6b756e]">Perjalanan kerja dari pekerja kasar konstruksi hingga bekerja di lingkungan pertukangan.</p>
+                            <p class="mt-3 text-xs font-medium leading-5 text-[#818a81]">2019–2022 · Pekerja kasar<br>2023–Oktober 2026 · Pertukangan</p>
+                            <div class="mt-auto flex flex-wrap items-center justify-between gap-3 border-t border-[#17231f]/10 pt-5">
+                                <span class="text-xs font-medium text-[#818a81]">Berbagai proyek konstruksi</span>
+                                <a class="text-xs font-bold text-[#547148] transition hover:text-[#17231f]" href="pengalaman-kerja/#konstruksi">Detail ↗</a>
+                            </div>
                     </article>
+                </div>
+
+                <div class="mt-7 text-center">
+                    <a href="pengalaman-kerja/" class="inline-flex items-center gap-2 rounded-full border border-[#17231f]/15 px-5 py-3 text-sm font-bold text-[#34443a] transition hover:border-[#547148] hover:bg-[#e7e9de]">
+                            Lihat semua detail pengalaman <span aria-hidden="true">↗</span>
+                    </a>
                 </div>
             </div>
         </section>

@@ -83,7 +83,8 @@ jobs:
             exit 1
           fi
 
-          mkdir -p dist/images dist/documents dist/build
+          mkdir -p dist/pengalaman-kerja dist/images dist/documents dist/build
+          curl --fail --silent --show-error http://127.0.0.1:8000/pengalaman-kerja --output dist/pengalaman-kerja/index.html
           cp -R public/images/. dist/images/
           cp -R public/documents/. dist/documents/
           cp -R public/build/. dist/build/
